@@ -6,6 +6,9 @@ if (Meteor.isClient) {
   app.controller('MeteorCtrl', ['$scope', '$meteor', function ($scope, $meteor) {
     $scope.Todos = $meteor("todos");
     $scope.todos = $meteor("todos").find({});
+    $scope.addTodo = function(t){
+        $scope.Todos.insert({name: t});
+    }
   }]);
 }
 
