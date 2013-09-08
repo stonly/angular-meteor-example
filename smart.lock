@@ -2,17 +2,23 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "5d736d4bf0448c7db1f9b47124dfafc34a9631bb"
+    "commit": "bb6c88ca9e3409ce4d50b796123c62cfb8fc71fd"
   },
   "dependencies": {
     "basePackages": {
-      "angularjs": {}
+      "angularjs": {},
+      "bootstrap-3": {}
     },
     "packages": {
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
         "tag": "v2.0.0",
         "commit": "1eda2bd416c671b9965d20f3c5e40c5a5ba11364"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v0.3.4",
+        "commit": "680c056e849d079a1b669247f347da2b443aad91"
       }
     }
   }
