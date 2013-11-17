@@ -2,7 +2,7 @@
 
 ### Setup
 
-clone the repositry
+clone the repository
 
     git clone git@github.com:tom-muhm/angular-meteor-example.git
     
